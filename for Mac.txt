@@ -4,3 +4,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+
+
+  for win:
+  "start": "react-scripts start",
+    "build": "react-scripts build",

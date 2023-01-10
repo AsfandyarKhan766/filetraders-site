@@ -13,7 +13,7 @@ class ProductSliderV4 extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title-area ltn__section-title-2--- text-center">
-                  <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">Properties</h6>
+                  <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">See Files</h6>
                   <h1 className="section-title">Latest Listings</h1>
                 </div>
               </div>
@@ -37,6 +37,107 @@ class ProductSliderV4 extends Component {
                         <ul>
                           <li>
                             <Link to="#">
+                              <i className="flaticon-pin" /> Metro city, Islamabad
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      {/* <div className="product-img-gallery go-top">
+                        <ul>
+                          <li>
+                            <Link to="/product-details">
+                              <i className="fas fa-camera" /> 4
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/product-details">
+                              <i className="fas fa-film" /> 2
+                            </Link>
+                          </li>
+                        </ul>
+                      </div> */}
+                    </div>
+                  </div>
+                  <div className="product-info">
+                    <div className="product-price">
+                      <span>
+                            Pkr 70,000<label>/ 75,000</label>
+                      </span>
+                    </div>
+                    <h2 className="product-title go-top">
+                      {/* <Link to="/product-details">New Apartment Nice View</Link> */}
+                      <Link to="#">5 Marla File Available For Sale</Link>
+                    </h2>
+                    <div className="product-description">
+                      <p>
+                        5 Marla file for sale good location  <br />
+                         rate kam hosakta ha contact 
+                      </p>
+                    </div>
+                    {/* <ul className="ltn__list-item-2 ltn__list-item-2-before">
+                      <li>
+                        <span>
+                          3 <i className="flaticon-bed" />
+                        </span>
+                        Bedrooms
+                      </li>
+                      <li>
+                        <span>
+                          2 <i className="flaticon-clean" />
+                        </span>
+                        Bathrooms
+                      </li>
+                      <li>
+                        <span>
+                          3450 <i className="flaticon-square-shape-design-interface-tool-symbol" />
+                        </span>
+                        square Ft
+                      </li>
+                    </ul> */}
+                  </div>
+                  <div className="product-info-bottom">
+                    <div className="real-estate-agent">
+                      <div className="agent-img go-top">
+                        <Link to="/team-details">
+                          <img src={publicUrl + "assets/img/blog/author.jpg"} alt="#" />
+                        </Link>
+                      </div>
+                      <div className="agent-brief go-top">
+                        <h6>
+                          <Link to="/team-details">Noman Khan</Link>
+                        </h6>
+                        <small>RARE Estate Property</small>
+                      </div>
+                    </div>
+                    <div className="product-hover-action">
+                      <ul>
+                        <li>
+                          <a style={{ borderRadius: 50 }} href="tel:+923313388811">
+                            ✆
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-sm-6 col-12">
+                <div className="ltn__product-item ltn__product-item-4 text-center---">
+                  <div className="product-img go-top">
+                    {/* <Link to="/product-details"><img src={publicUrl+"assets/img/product-3/1.jpg"} alt="#" /></Link> */}
+                    <Link to="#">
+                      <img src={publicUrl + "assets/img/product-3/1.jpg"} alt="#" />
+                    </Link>
+                    {/* <div className="product-badge">
+							<ul>
+								<li className="sale-badge bg-green">For Rent</li>
+							</ul>
+							</div> */}
+                    <div className="product-img-location-gallery">
+                      <div className="product-img-location">
+                        <ul>
+                          <li>
+                            <Link to="#">
                               <i className="flaticon-pin" /> Saon Garden, Islamabad
                             </Link>
                           </li>
@@ -66,12 +167,12 @@ class ProductSliderV4 extends Component {
                     </div>
                     <h2 className="product-title go-top">
                       {/* <Link to="/product-details">New Apartment Nice View</Link> */}
-                      <Link to="#">New Apartment Nice View</Link>
+                      <Link to="#">5 Marla File Available For Sale</Link>
                     </h2>
                     <div className="product-description">
                       <p>
-                        Beautiful Huge 1 Family House In Heart Of <br />
-                        Westbury. Newly Renovated With New Wood
+                      5 Marla file for sale good location  <br />
+                         rate kam hosakta ha contact
                       </p>
                     </div>
                     {/* <ul className="ltn__list-item-2 ltn__list-item-2-before">
@@ -105,6 +206,107 @@ class ProductSliderV4 extends Component {
                       <div className="agent-brief go-top">
                         <h6>
                           <Link to="/team-details">William Seklo</Link>
+                        </h6>
+                        <small>Estate Agents</small>
+                      </div>
+                    </div>
+                    <div className="product-hover-action">
+                      <ul>
+                        <li>
+                          <a style={{ borderRadius: 50 }} href="tel:+923313388811">
+                            ✆
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-sm-6 col-12">
+                <div className="ltn__product-item ltn__product-item-4 text-center---">
+                  <div className="product-img go-top">
+                    {/* <Link to="/product-details"><img src={publicUrl+"assets/img/product-3/1.jpg"} alt="#" /></Link> */}
+                    <Link to="#">
+                      <img src={publicUrl + "assets/img/product-3/1.jpg"} alt="#" />
+                    </Link>
+                    {/* <div className="product-badge">
+							<ul>
+								<li className="sale-badge bg-green">For Rent</li>
+							</ul>
+							</div> */}
+                    <div className="product-img-location-gallery">
+                      <div className="product-img-location">
+                        <ul>
+                          <li>
+                            <Link to="#">
+                              <i className="flaticon-pin" /> Saon Garden, Islamabad
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      {/* <div className="product-img-gallery go-top">
+                        <ul>
+                          <li>
+                            <Link to="/product-details">
+                              <i className="fas fa-camera" /> 4
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/product-details">
+                              <i className="fas fa-film" /> 2
+                            </Link>
+                          </li>
+                        </ul>
+                      </div> */}
+                    </div>
+                  </div>
+                  <div className="product-info">
+                    <div className="product-price">
+                      <span>
+                        $34,900<label>/Month</label>
+                      </span>
+                    </div>
+                    <h2 className="product-title go-top">
+                      {/* <Link to="/product-details">New Apartment Nice View</Link> */}
+                      <Link to="#">5 Marla File Available For Sale</Link>
+                    </h2>
+                    <div className="product-description">
+                      <p>
+                      5 Marla file for sale good location  <br />
+                         rate kam hosakta ha contact
+                      </p>
+                    </div>
+                    {/* <ul className="ltn__list-item-2 ltn__list-item-2-before">
+                      <li>
+                        <span>
+                          3 <i className="flaticon-bed" />
+                        </span>
+                        Bedrooms
+                      </li>
+                      <li>
+                        <span>
+                          2 <i className="flaticon-clean" />
+                        </span>
+                        Bathrooms
+                      </li>
+                      <li>
+                        <span>
+                          3450 <i className="flaticon-square-shape-design-interface-tool-symbol" />
+                        </span>
+                        square Ft
+                      </li>
+                    </ul> */}
+                  </div>
+                  <div className="product-info-bottom">
+                    <div className="real-estate-agent">
+                      <div className="agent-img go-top">
+                        <Link to="/team-details">
+                          <img src={publicUrl + "assets/img/blog/author.jpg"} alt="#" />
+                        </Link>
+                      </div>
+                      <div className="agent-brief go-top">
+                        <h6>
+                          <Link to="/team-details">Noman Khan</Link>
                         </h6>
                         <small>Estate Agents</small>
                       </div>
@@ -205,209 +407,7 @@ class ProductSliderV4 extends Component {
                       </div>
                       <div className="agent-brief go-top">
                         <h6>
-                          <Link to="/team-details">William Seklo</Link>
-                        </h6>
-                        <small>Estate Agents</small>
-                      </div>
-                    </div>
-                    <div className="product-hover-action">
-                      <ul>
-                        <li>
-                          <a style={{ borderRadius: 50 }} href="tel:+923313388811">
-                            ✆
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-sm-6 col-12">
-                <div className="ltn__product-item ltn__product-item-4 text-center---">
-                  <div className="product-img go-top">
-                    {/* <Link to="/product-details"><img src={publicUrl+"assets/img/product-3/1.jpg"} alt="#" /></Link> */}
-                    <Link to="#">
-                      <img src={publicUrl + "assets/img/product-3/1.jpg"} alt="#" />
-                    </Link>
-                    {/* <div className="product-badge">
-							<ul>
-								<li className="sale-badge bg-green">For Rent</li>
-							</ul>
-							</div> */}
-                    <div className="product-img-location-gallery">
-                      <div className="product-img-location">
-                        <ul>
-                          <li>
-                            <Link to="#">
-                              <i className="flaticon-pin" /> Saon Garden, Islamabad
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                      {/* <div className="product-img-gallery go-top">
-                        <ul>
-                          <li>
-                            <Link to="/product-details">
-                              <i className="fas fa-camera" /> 4
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/product-details">
-                              <i className="fas fa-film" /> 2
-                            </Link>
-                          </li>
-                        </ul>
-                      </div> */}
-                    </div>
-                  </div>
-                  <div className="product-info">
-                    <div className="product-price">
-                      <span>
-                        $34,900<label>/Month</label>
-                      </span>
-                    </div>
-                    <h2 className="product-title go-top">
-                      {/* <Link to="/product-details">New Apartment Nice View</Link> */}
-                      <Link to="#">New Apartment Nice View</Link>
-                    </h2>
-                    <div className="product-description">
-                      <p>
-                        Beautiful Huge 1 Family House In Heart Of <br />
-                        Westbury. Newly Renovated With New Wood
-                      </p>
-                    </div>
-                    {/* <ul className="ltn__list-item-2 ltn__list-item-2-before">
-                      <li>
-                        <span>
-                          3 <i className="flaticon-bed" />
-                        </span>
-                        Bedrooms
-                      </li>
-                      <li>
-                        <span>
-                          2 <i className="flaticon-clean" />
-                        </span>
-                        Bathrooms
-                      </li>
-                      <li>
-                        <span>
-                          3450 <i className="flaticon-square-shape-design-interface-tool-symbol" />
-                        </span>
-                        square Ft
-                      </li>
-                    </ul> */}
-                  </div>
-                  <div className="product-info-bottom">
-                    <div className="real-estate-agent">
-                      <div className="agent-img go-top">
-                        <Link to="/team-details">
-                          <img src={publicUrl + "assets/img/blog/author.jpg"} alt="#" />
-                        </Link>
-                      </div>
-                      <div className="agent-brief go-top">
-                        <h6>
-                          <Link to="/team-details">William Seklo</Link>
-                        </h6>
-                        <small>Estate Agents</small>
-                      </div>
-                    </div>
-                    <div className="product-hover-action">
-                      <ul>
-                        <li>
-                          <a style={{ borderRadius: 50 }} href="tel:+923313388811">
-                            ✆
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-sm-6 col-12">
-                <div className="ltn__product-item ltn__product-item-4 text-center---">
-                  <div className="product-img go-top">
-                    {/* <Link to="/product-details"><img src={publicUrl+"assets/img/product-3/1.jpg"} alt="#" /></Link> */}
-                    <Link to="#">
-                      <img src={publicUrl + "assets/img/product-3/1.jpg"} alt="#" />
-                    </Link>
-                    {/* <div className="product-badge">
-							<ul>
-								<li className="sale-badge bg-green">For Rent</li>
-							</ul>
-							</div> */}
-                    <div className="product-img-location-gallery">
-                      <div className="product-img-location">
-                        <ul>
-                          <li>
-                            <Link to="#">
-                              <i className="flaticon-pin" /> Saon Garden, Islamabad
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                      {/* <div className="product-img-gallery go-top">
-                        <ul>
-                          <li>
-                            <Link to="/product-details">
-                              <i className="fas fa-camera" /> 4
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to="/product-details">
-                              <i className="fas fa-film" /> 2
-                            </Link>
-                          </li>
-                        </ul>
-                      </div> */}
-                    </div>
-                  </div>
-                  <div className="product-info">
-                    <div className="product-price">
-                      <span>
-                        $34,900<label>/Month</label>
-                      </span>
-                    </div>
-                    <h2 className="product-title go-top">
-                      {/* <Link to="/product-details">New Apartment Nice View</Link> */}
-                      <Link to="#">New Apartment Nice View</Link>
-                    </h2>
-                    <div className="product-description">
-                      <p>
-                        Beautiful Huge 1 Family House In Heart Of <br />
-                        Westbury. Newly Renovated With New Wood
-                      </p>
-                    </div>
-                    {/* <ul className="ltn__list-item-2 ltn__list-item-2-before">
-                      <li>
-                        <span>
-                          3 <i className="flaticon-bed" />
-                        </span>
-                        Bedrooms
-                      </li>
-                      <li>
-                        <span>
-                          2 <i className="flaticon-clean" />
-                        </span>
-                        Bathrooms
-                      </li>
-                      <li>
-                        <span>
-                          3450 <i className="flaticon-square-shape-design-interface-tool-symbol" />
-                        </span>
-                        square Ft
-                      </li>
-                    </ul> */}
-                  </div>
-                  <div className="product-info-bottom">
-                    <div className="real-estate-agent">
-                      <div className="agent-img go-top">
-                        <Link to="/team-details">
-                          <img src={publicUrl + "assets/img/blog/author.jpg"} alt="#" />
-                        </Link>
-                      </div>
-                      <div className="agent-brief go-top">
-                        <h6>
-                          <Link to="/team-details">William Seklo</Link>
+                          <Link to="/team-details">Noman Khan</Link>
                         </h6>
                         <small>Estate Agents</small>
                       </div>

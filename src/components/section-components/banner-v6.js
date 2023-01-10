@@ -24,14 +24,11 @@ class BannerV6 extends Component {
                     <div className="slide-item-car-dealer-form">
                       <div className="section-title-area ltn__section-title-2 text-center">
                         <h1 className="section-title  text-color-white">
-                          Find Your <span className="ltn__secondary-color-3">Perfect</span> Home
+                          Let's <span className="ltn__secondary-color-3">Trade</span> Together
                         </h1>
                       </div>
-                      <div style={{ color: "white" }} className="col-12 text-center">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio obcaecati repellendus, debitis voluptas, dignissimos dolor
-                        delectus eos eveniet ab, qui maiores? Nostrum molestiae saepe maxime accusamus qui ea dolorum doloribus cum ducimus! Soluta ab
-                        reiciendis architecto dicta earum consequatur, voluptates optio? Vitae dignissimos officia error et officiis, pariatur culpa
-                        nam?
+                      <div style={{ color: "white"}} className="col-12 text-center">
+                      Files trader is The fastest website where buyers and sellers place bids and offer to buy or sell.
                       </div>
                     </div>
                   </div>

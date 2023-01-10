@@ -19,7 +19,7 @@ class BannerV7 extends Component {
 							{/* <div class="section-title-area ltn__section-title-2 text-center">
 											<h1 class="section-title  text-color-white">Find Your <span class="ltn__secondary-color-3">Perfect</span> Car</h1>
 										</div> */}
-							<h3 className="text-color-white--- text-center mb-30">Find Your <span className="ltn__secondary-color-3">Perfect</span> Home</h3>
+							<h3 className="text-color-white--- text-center mb-30">Let's <span className="ltn__secondary-color-3">Trade</span> With Us</h3>
 							<div className="ltn__car-dealer-form-tab">
 							<div className="ltn__tab-menu  text-uppercase text-center">
 								<div className="nav">
