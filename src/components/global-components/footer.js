@@ -67,7 +67,7 @@ class Footer_v1 extends Component {
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <a href="tel:+0123-456789">+0123-456789</a>
+                            <a href="tel:+923313388811">+923313388811</a>
                           </p>
                         </div>
                       </li>
@@ -77,7 +77,7 @@ class Footer_v1 extends Component {
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <a href="mailto:example@example.com">example@example.com</a>
+                            <a href="mailto:example@example.com">info@filestrader.com</a>
                           </p>
                         </div>
                       </li>
