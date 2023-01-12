@@ -61,7 +61,7 @@ class ProductSliderV4 extends Component {
                   <div className="product-info">
                     <div className="product-price">
                       <span>
-                            Pkr 70,000<label>/ 75,000</label>
+                        Pkr 70,000<label>/ 75,000</label>
                       </span>
                     </div>
                     <h2 className="product-title go-top">
@@ -70,8 +70,8 @@ class ProductSliderV4 extends Component {
                     </h2>
                     <div className="product-description">
                       <p>
-                        5 Marla file for sale good location  <br />
-                         rate kam hosakta ha contact 
+                        5 Marla file for sale good location <br />
+                        rate kam hosakta ha contact
                       </p>
                     </div>
                     {/* <ul className="ltn__list-item-2 ltn__list-item-2-before">
@@ -111,9 +111,12 @@ class ProductSliderV4 extends Component {
                     </div>
                     <div className="product-hover-action">
                       <ul>
-                        <li>
-                          <a style={{ borderRadius: 50 }} href="tel:+923313388811">
-                            ✆
+                        <li className="dialer">
+                          <a
+                            // style={{ borderRadius: 50 }}
+                            href="tel:+923313388811"
+                          >
+                            <i class="fa-solid fa-phone-volume"></i>
                           </a>
                         </li>
                       </ul>
@@ -171,8 +174,8 @@ class ProductSliderV4 extends Component {
                     </h2>
                     <div className="product-description">
                       <p>
-                      5 Marla file for sale good location  <br />
-                         rate kam hosakta ha contact
+                        5 Marla file for sale good location <br />
+                        rate kam hosakta ha contact
                       </p>
                     </div>
                     {/* <ul className="ltn__list-item-2 ltn__list-item-2-before">
@@ -212,9 +215,12 @@ class ProductSliderV4 extends Component {
                     </div>
                     <div className="product-hover-action">
                       <ul>
-                        <li>
-                          <a style={{ borderRadius: 50 }} href="tel:+923313388811">
-                            ✆
+                        <li className="dialer">
+                          <a
+                            // style={{ borderRadius: 50 }}
+                            href="tel:+923313388811"
+                          >
+                            <i class="fa-solid fa-phone-volume"></i>
                           </a>
                         </li>
                       </ul>
@@ -272,8 +278,8 @@ class ProductSliderV4 extends Component {
                     </h2>
                     <div className="product-description">
                       <p>
-                      5 Marla file for sale good location  <br />
-                         rate kam hosakta ha contact
+                        5 Marla file for sale good location <br />
+                        rate kam hosakta ha contact
                       </p>
                     </div>
                     {/* <ul className="ltn__list-item-2 ltn__list-item-2-before">
@@ -313,9 +319,12 @@ class ProductSliderV4 extends Component {
                     </div>
                     <div className="product-hover-action">
                       <ul>
-                        <li>
-                          <a style={{ borderRadius: 50 }} href="tel:+923313388811">
-                            ✆
+                        <li className="dialer">
+                          <a
+                            // style={{ borderRadius: 50 }}
+                            href="tel:+923313388811"
+                          >
+                            <i class="fa-solid fa-phone-volume"></i>
                           </a>
                         </li>
                       </ul>
@@ -414,9 +423,12 @@ class ProductSliderV4 extends Component {
                     </div>
                     <div className="product-hover-action">
                       <ul>
-                        <li>
-                          <a style={{ borderRadius: 50 }} href="tel:+923313388811">
-                            ✆
+                        <li className="dialer">
+                          <a
+                            // style={{ borderRadius: 50 }}
+                            href="tel:+923313388811"
+                          >
+                            <i class="fa-solid fa-phone-volume"></i>
                           </a>
                         </li>
                       </ul>
@@ -515,9 +527,12 @@ class ProductSliderV4 extends Component {
                     </div>
                     <div className="product-hover-action">
                       <ul>
-                        <li>
-                          <a style={{ borderRadius: 50 }} href="tel:+923313388811">
-                            ✆
+                        <li className="dialer">
+                          <a
+                            // style={{ borderRadius: 50 }}
+                            href="tel:+923313388811"
+                          >
+                            <i class="fa-solid fa-phone-volume"></i>
                           </a>
                         </li>
                       </ul>
