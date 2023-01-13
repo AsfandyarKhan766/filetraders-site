@@ -483,7 +483,7 @@ class NavbarV3 extends Component {
                       <Link to="/shop">Shop</Link>
                     </li>
                     <li>
-                      <Link to="/shop-grid">Lahore</Link>
+                      <Link to="/shop-grid">Metro City</Link>
                     </li>
                     <li>
                       <Link to="/shop-left-sidebar">Lahore</Link>

@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import parse from "html-react-parser";
 import Sidebar from "./shop-sidebar";
+import MetroCityCards from "./shop-cards-metro-city";
+import { BrowserRouter as Router, HashRouter, Route, Switch } from "react-router-dom";
 
 class ShopGridV1 extends Component {
   render() {
@@ -147,6 +149,7 @@ class ShopGridV1 extends Component {
                             </div>
                           </div>
                         </div> */}
+
                         <div className="col-xl-4 col-sm-6 col-12">
                           <div className="ltn__product-item ltn__product-item-4 text-center---">
                             <div className="product-img go-top">
