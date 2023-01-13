@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import parse from "html-react-parser";
 import Sidebar from "./shop-sidebar";
+
 import { BrowserRouter as Router, HashRouter, Route, Switch } from "react-router-dom";
 
 class ShopGridV1 extends Component {
