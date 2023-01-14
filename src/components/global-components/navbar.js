@@ -195,20 +195,22 @@ class Navbar extends Component {
                             </ul> */}
                           </li>
                           <li className="menu-icon">
-                            <Link to="/shop">Locations</Link>
+                            <Link to="#">Locations</Link>
+                            {/* <Link to="/shop">Locations</Link> */}
                             <ul>
                               <li>
-                                <Link to="/shop">Shop</Link>
+                                <Link to="/shop-metro">Metro City Gujar Khan</Link>
                               </li>
                               <li>
-                                <Link to="/shop-grid">Shop Grid</Link>
+                                <Link to="/shop-bahria">Behria Town Islamabad</Link>
                               </li>
                               <li>
-                                <Link to="/shop-left-sidebar">Shop Left sidebar</Link>
+                                <Link to="/shop-top-city">Top City Islamabad</Link>
                               </li>
                               <li>
-                                <Link to="/shop-right-sidebar">Shop Right sidebar</Link>
+                                <Link to="/shop-park-view">ParkView City Islamabad</Link>
                               </li>
+
                               {/* <li>
                                 <Link to="/product-details">Shop Details</Link>
                               </li>
@@ -337,8 +339,7 @@ class Navbar extends Component {
                   </div>
                 </div>
                 <div className="col ltn__header-options ltn__header-options-2 mb-sm-20">
-                  {/* header-search-1 */}
-                  <div className="header-search-wrap">
+                  {/* <div className="header-search-wrap">
                     <div className="header-search-1">
                       <div className="search-icon">
                         <i className="icon-search for-search-show" />
@@ -356,7 +357,7 @@ class Navbar extends Component {
                       </form>
                     </div>
                   </div>
-                  {/* user-menu */}
+
                   <div className="ltn__drop-menu user-menu">
                     <ul>
                       <li>
@@ -377,15 +378,14 @@ class Navbar extends Component {
                       </li>
                     </ul>
                   </div>
-                  {/* mini-cart */}
+
                   <div className="mini-cart-icon">
                     <a href="#ltn__utilize-cart-menu" className="ltn__utilize-toggle">
                       <i className="icon-shopping-cart"></i>
                       <sup>2</sup>
                     </a>
-                  </div>
-                  {/* mini-cart */}
-                  {/* Mobile Menu Button */}
+                  </div> */}
+
                   <div className="mobile-menu-toggle d-xl-none">
                     <a href="#ltn__utilize-mobile-menu" className="ltn__utilize-toggle">
                       <svg viewBox="0 0 800 600">
@@ -414,20 +414,22 @@ class Navbar extends Component {
               </div>
               <button className="ltn__utilize-close">×</button>
             </div>
-            <div className="ltn__utilize-menu-search-form">
+            {/* <div className="ltn__utilize-menu-search-form">
               <form action={"#"}>
                 <input type="text" placeholder="Search..." />
                 <button>
                   <i className="fas fa-search" />
                 </button>
               </form>
-            </div>
+            </div> */}
             <div className="ltn__utilize-menu">
               <ul>
                 <li>
                   <a href="#">Home</a>
-                  <ul className="sub-menu">
-                    {/* <li><Link to="/">Home Style 01</Link></li> */}
+                  {/* <ul className="sub-menu">
+                    <li>
+                      <Link to="/">Home Style 01</Link>
+                    </li>
                     <li>
                       <Link to="/home-v2">Home Style 02</Link>
                     </li>
@@ -457,11 +459,11 @@ class Navbar extends Component {
                     <li>
                       <Link to="/home-v10">Home Style 10</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
                   <Link to="/about">About</Link>
-                  <ul className="sub-menu">
+                  {/* <ul className="sub-menu">
                     <li>
                       <Link to="/about">About</Link>
                     </li>
@@ -492,24 +494,25 @@ class Navbar extends Component {
                     <li>
                       <Link to="/location">Google Map Locations</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
-                  <Link to="/shop">Shop</Link>
+                  <Link to="#">Locations</Link>
+                  {/* <Link to="/shop">Locations</Link> */}
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/shop">Shop</Link>
+                      <Link to="/shop-metro">Metro City Gujar Khan</Link>
                     </li>
                     <li>
-                      <Link to="/shop-grid">Shop Grid</Link>
+                      <Link to="/shop-bahria">Behria Town Islamabad</Link>
                     </li>
                     <li>
-                      <Link to="/shop-left-sidebar">Shop Left sidebar</Link>
+                      <Link to="/shop-top-city">Top City Islamabad</Link>
                     </li>
                     <li>
-                      <Link to="/shop-right-sidebar">Shop Right sidebar</Link>
+                      <Link to="/shop-park-view">ParkView City Islamabad</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/product-details">Shop Details</Link>
                     </li>
                     <li>
@@ -526,10 +529,10 @@ class Navbar extends Component {
                     </li>
                     <li>
                       <Link to="/register">Register</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/blog-grid">News</Link>
                   <ul className="sub-menu">
                     <li>
@@ -548,8 +551,8 @@ class Navbar extends Component {
                       <Link to="/blog-details">News details</Link>
                     </li>
                   </ul>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link to="#">Pages</Link>
                   <ul className="sub-menu">
                     <li>
@@ -598,13 +601,13 @@ class Navbar extends Component {
                       <Link to="/coming-soon">Coming Soon</Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
-            <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
+            {/* <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
               <ul>
                 <li>
                   <Link to="/my-account" title="My Account">
@@ -633,7 +636,7 @@ class Navbar extends Component {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div className="ltn__social-media-2">
               <ul>
                 <li>

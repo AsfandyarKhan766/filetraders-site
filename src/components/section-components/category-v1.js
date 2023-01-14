@@ -21,7 +21,7 @@ class CategoryV1 extends Component {
           <div className="row ltn__category-slider-active--- slick-arrow-1 justify-content-center">
             <div className="col-lg-3 col-md-4 col-sm-6 col-6">
               <div className="ltn__category-item ltn__category-item-5 text-center">
-                <Link to="/shop">
+                <Link to="/shop-metro">
                   <span className="category-icon">
                     <i class="fa-solid fa-house-user" />
                   </span>
@@ -34,7 +34,7 @@ class CategoryV1 extends Component {
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-6">
               <div className="ltn__category-item ltn__category-item-5 text-center">
-                <Link to="/shop">
+                <Link to="/shop-bahria">
                   <span className="category-icon">
                     <i className="flaticon-swimming" />
                   </span>
@@ -47,7 +47,7 @@ class CategoryV1 extends Component {
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-6">
               <div className="ltn__category-item ltn__category-item-5 text-center">
-                <Link to="/shop">
+                <Link to="/shop-top-city">
                   <span className="category-icon">
                     <i className="flaticon-secure-shield" />
                   </span>
@@ -60,11 +60,11 @@ class CategoryV1 extends Component {
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-6">
               <div className="ltn__category-item ltn__category-item-5 text-center">
-                <Link to="/shop">
+                <Link to="/shop-park-view">
                   <span className="category-icon">
                     <i className="flaticon-stethoscope" />
                   </span>
-                  <span className="category-title">Parkview City Islamabad</span>
+                  <span className="category-title">ParkView City Islamabad</span>
                   <span className="category-btn">
                     <i className="flaticon-right-arrow" />
                   </span>

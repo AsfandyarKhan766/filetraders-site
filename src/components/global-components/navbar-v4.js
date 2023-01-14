@@ -217,17 +217,30 @@ class NavbarV3 extends Component {
                             </ul> */}
                           </li>
                           <li className="menu-icon">
-                            <Link to="/shop">Locations</Link>
+                            <Link to="#">Locations</Link>
+                            {/* <Link to="/shop">Locations</Link> */}
                             <ul>
                               <li>
-                                <Link to="/shop">Shop</Link>
+                                <Link to="/shop-metro">Metro City Gujar Khan</Link>
                               </li>
                               <li>
+                                <Link to="/shop-bahria">Behria Town Islamabad</Link>
+                              </li>
+                              <li>
+                                <Link to="/shop-top-city">Top City Islamabad</Link>
+                              </li>
+                              <li>
+                                <Link to="/shop-park-view">ParkView City Islamabad</Link>
+                              </li>
+                              {/* <li>
+                                <Link to="/shop">Shop</Link>
+                              </li> */}
+                              {/* <li>
                                 <Link to="/shop-grid">Lahore</Link>
                               </li>
                               <li>
                                 <Link to="/shop-left-sidebar">Lahore</Link>
-                              </li>
+                              </li> */}
                               {/* <li>
                                 <Link to="/shop-right-sidebar">Shop Right sidebar</Link>
                               </li>
@@ -477,16 +490,20 @@ class NavbarV3 extends Component {
                   </ul> */}
                 </li>
                 <li>
-                  <Link to="/shop">Locations</Link>
+                  {/* <Link to="/shop">Locations</Link> */}
+                  <Link to="#">Locations</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/shop">Shop</Link>
+                      <Link to="/shop-metro">Metro City Gujar Khan</Link>
                     </li>
                     <li>
-                      <Link to="/shop-grid">Metro City</Link>
+                      <Link to="/shop-bahria">Behria Town Islamabad</Link>
                     </li>
                     <li>
-                      <Link to="/shop-left-sidebar">Lahore</Link>
+                      <Link to="/shop-top-city">Top City Islamabad</Link>
+                    </li>
+                    <li>
+                      <Link to="/shop-park-view">ParkView City Islamabad</Link>
                     </li>
                     {/* <li>
                                 <Link to="/shop-right-sidebar">Shop Right sidebar</Link>
