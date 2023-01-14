@@ -64,7 +64,7 @@ class CategoryV1 extends Component {
                   <span className="category-icon">
                     <i className="flaticon-stethoscope" />
                   </span>
-                  <span className="category-title">Lakeview City Islamabad</span>
+                  <span className="category-title">Parkview City Islamabad</span>
                   <span className="category-btn">
                     <i className="flaticon-right-arrow" />
                   </span>
