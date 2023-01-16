@@ -70,7 +70,7 @@ class Navbar extends Component {
                           {/* header-top-btn */}
                           <div className="header-top-btn">
                             {/* <Link to="/add-listing">Add Listing</Link> */}
-                            <a href="tel:+4733378901">CALL NOW</a>
+                            <a href="tel:+923313388811">CALL NOW</a>
                           </div>
                         </li>
                       </ul>
