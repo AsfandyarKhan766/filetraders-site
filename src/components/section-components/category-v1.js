@@ -22,8 +22,9 @@ class CategoryV1 extends Component {
             <div className="col-lg-3 col-md-4 col-sm-6 col-6">
               <div className="ltn__category-item ltn__category-item-5 text-center">
                 <Link to="/shop-metro">
-                  <span className="category-icon">
-                    <i class="fa-solid fa-house-user" />
+                  <span className="category-icon society-icon">
+                    {/* <i class="fa-solid fa-house-user" /> */}
+                    <img className="" src="assets/img/icons/custom-img/metrocity-icon.png" alt="metrocity-icon" />
                   </span>
                   <span className="category-title">Metro City Gujar Khan</span>
                   <span className="category-btn">
@@ -35,8 +36,9 @@ class CategoryV1 extends Component {
             <div className="col-lg-3 col-md-4 col-sm-6 col-6">
               <div className="ltn__category-item ltn__category-item-5 text-center">
                 <Link to="/shop-bahria">
-                  <span className="category-icon">
-                    <i className="flaticon-swimming" />
+                  <span className="category-icon society-icon">
+                    {/* <i className="flaticon-swimming" /> */}
+                    <img className="" src="assets/img/icons/custom-img/behria-icon.png" alt="bahria-icon" />
                   </span>
                   <span className="category-title">Behria Town Islamabad</span>
                   <span className="category-btn">
@@ -48,8 +50,9 @@ class CategoryV1 extends Component {
             <div className="col-lg-3 col-md-4 col-sm-6 col-6">
               <div className="ltn__category-item ltn__category-item-5 text-center">
                 <Link to="/shop-top-city">
-                  <span className="category-icon">
-                    <i className="flaticon-secure-shield" />
+                  <span className="category-icon society-icon">
+                    {/* <i className="flaticon-secure-shield" /> */}
+                    <img className="" src="assets/img/icons/custom-img/topcity-icon.png" alt="topcity-icon" />
                   </span>
                   <span className="category-title">Top City Islamabad</span>
                   <span className="category-btn">
@@ -61,8 +64,9 @@ class CategoryV1 extends Component {
             <div className="col-lg-3 col-md-4 col-sm-6 col-6">
               <div className="ltn__category-item ltn__category-item-5 text-center">
                 <Link to="/shop-park-view">
-                  <span className="category-icon">
-                    <i className="flaticon-stethoscope" />
+                  <span className="category-icon society-icon">
+                    {/* <i className="flaticon-stethoscope" /> */}
+                    <img className="" src="assets/img/icons/custom-img/parkview-icon.png" alt="parkview-icon.png" />
                   </span>
                   <span className="category-title">ParkView City Islamabad</span>
                   <span className="category-btn">

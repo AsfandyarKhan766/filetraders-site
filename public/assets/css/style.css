@@ -70,6 +70,15 @@ font-family: 'Poppins', sans-serif;
 /* ====================================================
     Gutter Code 
 ==================================================== */
+.society-icon {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.society-icon img {
+  width: 70px;
+  height: 70px;
+}
 .dialer{
   height: 25px;
   width: 25px;
