@@ -19,6 +19,9 @@ import PortfolioV2 from "./components/portfolio-v2";
 import PortfolioDetails from "./components/portfolio-details";
 import Team from "./components/team";
 import TeamDetails from "./components/team-details";
+import TeamDetailsNoman from "./components/team-details-noman";
+import TeamDetailsKhuram from "./components/team-details-khuram";
+import TeamDetailsAsfandyar from "./components/team-details-asfandyar";
 import Faq from "./components/faq";
 import ComingSoon from "./components/coming-soon";
 import Error from "./components/404";
@@ -76,6 +79,9 @@ class Root extends Component {
             <Route path="/portfolio-details" component={PortfolioDetails} />
             <Route path="/team" component={Team} />
             <Route path="/team-details" component={TeamDetails} />
+            <Route path="/team-details-noman" component={TeamDetailsNoman} />
+            <Route path="/team-details-khuram" component={TeamDetailsKhuram} />
+            <Route path="/team-details-asfandyar" component={TeamDetailsAsfandyar} />
             <Route path="/faq" component={Faq} />
             <Route path="/coming-soon" component={ComingSoon} />
             <Route path="/404" component={Error} />
